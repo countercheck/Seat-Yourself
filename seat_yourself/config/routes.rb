@@ -1,4 +1,22 @@
 SeatYourself::Application.routes.draw do
+  get "user/new"
+  get "user/create"
+  get "user/show"
+  get "user/edit"
+  get "user/update"
+  get "user/destroy"
+  get "reservation/new"
+  get "reservation/create"
+  get "reservation/show"
+  get "reservation/edit"
+  get "reservation/update"
+  get "reservation/destroy"
+  get "restaurant/new"
+  get "restaurant/create"
+  get "restaurant/show"
+  get "restaurant/edit"
+  get "restaurant/update"
+  get "restaurant/destroy"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
