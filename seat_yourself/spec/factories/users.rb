@@ -3,7 +3,7 @@
 FactoryGirl.define do
   factory :user do
     email "MyString"
-    phone 1
+    phone "MyString"
     password_digest "MyString"
     name "MyString"
   end
